@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -35,11 +35,37 @@
       <div class="alt-header__column">
         <h1 class="alt-header__title">Jay Kim</h1>
       </div>
-      <div class="alt-header__column"><i class="fas fa-search fa-2x"></i></div>
-      <div class="alt-header__column"><i class="fas fa-bars"></i></div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chats__timestamp">Tuesday, June 30, 2023</div>
+
+      <div class="message-row">
+        <img
+          src="https://lh3.googleusercontent.com/ogw/AOLn63E6xCJi_HFs_7EB6o3CoeoVG1Y6qX5XTKbqKpEffQ=s32-c-mo"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Claire</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi! Nice to meet you!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
