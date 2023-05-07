@@ -1,0 +1,16 @@
+#login-background {
+  background-image: url("https://img.freepik.com/free-vector/man-weight-lifting-with-sports-icons_24877-51357.jpg");
+  background-position: center;
+}
+
+.welcome-header {
+  padding-top: 150px;
+}
+
+#login-form input {
+  border-radius: 20px;
+}
+
+#login-form input::placeholder {
+  text-align: center;
+}
