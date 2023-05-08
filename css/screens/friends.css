@@ -3,7 +3,6 @@
   flex-direction: column;
   align-content: flex-start;
 }
-
 .friends-component__column {
   display: flex;
   align-items: center;

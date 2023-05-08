@@ -4,7 +4,6 @@
   border-top: var(--main-border);
   border-bottom: var(--main-border);
 }
-
 .recommended-friends__title {
   font-size: 14px;
   color: var(--font-color);
