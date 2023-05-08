@@ -11,16 +11,17 @@
 }
 
 .recommended-friends span {
-  margin: 100px 0px;
+  margin: 10px 0px;
   display: block;
   text-align: center;
   font-size: 18px;
   color: var(--font-color);
 }
 
-.open-chat {
-  overflow: scroll;
+.my-goal__text {
+  margin-bottom: 10px;
 }
+
 .open-chat__header {
   display: flex;
   justify-content: space-between;

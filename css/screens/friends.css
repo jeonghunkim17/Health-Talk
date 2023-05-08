@@ -6,7 +6,6 @@
 
 .friends-component__column {
   display: flex;
-
   align-items: center;
   margin-bottom: 10px;
 }
@@ -39,7 +38,9 @@
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+  font-weight: bold;
 }
 
 @keyframes hideSplashScreen {
