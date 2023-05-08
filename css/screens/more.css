@@ -10,6 +10,8 @@
 
 .more-suggestions__title {
   margin-bottom: 30px;
+  color: var(--main-color);
+  font-size: 20px;
 }
 
 .more-suggestions__icons {
@@ -23,10 +25,17 @@
   align-items: center;
 }
 
+.more-suggestions__icon img {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
+  background-color: var(--main-color);
   border-radius: 10px;
   display: flex;
   justify-content: center;

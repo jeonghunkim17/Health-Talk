@@ -18,8 +18,10 @@
   color: var(--font-color);
 }
 
-.my-goal__text {
+.find-screen__text {
   margin-bottom: 10px;
+  font-size: 20px;
+  color: var(--main-color);
 }
 
 .open-chat__header {
@@ -33,6 +35,15 @@
   opacity: 0.6;
 }
 
+.open-chat-main {
+  height: 300px;
+  overflow: auto;
+}
+
+.open-chat__title {
+  color: var(--main-color);
+}
+
 .open-post {
   display: flex;
   justify-content: space-between;
@@ -43,6 +54,7 @@
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 7px;
+  color: rgb(104, 114, 229);
 }
 
 .open-post__hashtags {

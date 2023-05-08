@@ -8,8 +8,14 @@
   color: white;
 }
 
+#login-form {
+  align-items: center;
+}
+
 #login-form input {
   border-radius: 20px;
+  text-align: center;
+  width: 300px;
 }
 
 #login-form input::placeholder {
