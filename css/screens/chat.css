@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: #d1abce;
   height: 500vh;
 }
 
@@ -8,7 +8,7 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: #d1abce;
   box-sizing: border-box;
 }
 
@@ -72,6 +72,14 @@
 .message__info {
   display: flex;
   align-items: flex-end;
+  margin-top: 3px;
+}
+
+.message__info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  margin-left: 5px;
 }
 
 .message__bubble {
@@ -79,8 +87,11 @@
   padding: 12px;
   font-size: 18px;
   border-radius: 15px;
-  border-top-left-radius: 0px;
   margin-right: 5px;
+}
+
+.first-message {
+  border-top-left-radius: 0px;
 }
 
 .message__time {
@@ -88,19 +99,23 @@
   font-size: 13px;
 }
 
-.message-row--own {
+.message-row__own {
   justify-content: flex-end;
 }
 
-.message-row--own .message__bubble {
-  background-color: var(--yellow);
+.message-row__own img {
+  margin-right: -4px;
+}
+
+.message-row__own .message__bubble {
+  background-color: var(--main-color);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;
   margin-left: 5px;
 }
 
-.message-row--own .message__info {
+.message-row__own .message__info {
   flex-direction: row-reverse;
 }
 
@@ -151,7 +166,7 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--main-color);
   border: none;
   width: 30px;
   height: 30px;

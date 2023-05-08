@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Friends - Health Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -18,7 +18,7 @@
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
+        <span>100%</span>
         <i class="fas fa-battery-full fa-lg"></i>
         <!-- battery icon-->
         <i class="fas fa-bolt"></i>
@@ -32,8 +32,9 @@
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span
-          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
-        ></span>
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+          <div class="header__alert"></div>
+        </span>
       </div>
     </header>
 
@@ -42,18 +43,37 @@
       <i class="fas fa-chevron-right fa-xs"></i>
     </a>
     <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
+      <div class="friends-component">
+        <div class="friends-component__column">
           <img
-            src="https://lh3.googleusercontent.com/ogw/AOLn63E6xCJi_HFs_7EB6o3CoeoVG1Y6qX5XTKbqKpEffQ=s32-c-mo"
+            src="https://images.unsplash.com/photo-1601011850287-43e30b7db748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
             class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">Jay Kim</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+            <h4 class="user-component__title">James</h4>
+            <h6 class="user-component__subtitle">Amor fati.</h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="friends-component__column">
+          <img
+            src="https://images.unsplash.com/photo-1573761691575-2c10f2554119?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">까치</h4>
+            <h6 class="user-component__subtitle">오늘도 빼자!</h6>
+          </div>
+        </div>
+        <div class="friends-component__column">
+          <img
+            src="https://images.unsplash.com/photo-1479750178258-aec5879046ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=799&q=80"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">춘봉이</h4>
+            <h6 class="user-component__subtitle">!!!!!!!!!</h6>
+          </div>
+        </div>
       </div>
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
@@ -62,18 +82,54 @@
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="https://lh3.googleusercontent.com/ogw/AOLn63E6xCJi_HFs_7EB6o3CoeoVG1Y6qX5XTKbqKpEffQ=s32-c-mo"
+              src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1453&q=80"
               class="user-component__avatar user-component__avatar--sm"
             />
             <div class="user-component__text">
               <h4 class="user-component__title user-component__title-not-bold">
-                Channel
+                다이어트 추천 레시피
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>10 <i class="fas fa-chevron-right fa-xs"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://images.unsplash.com/photo-1520356496838-3d9184d470f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title-not-bold">
+                다이어트 캐슬
               </h4>
             </div>
           </div>
           <div class="user-component__column">
             <div>
               <span>2 <i class="fas fa-chevron-right fa-xs"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://images.unsplash.com/photo-1542176107-f50284e217c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title-not-bold">
+                다이어트 365
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>8 <i class="fas fa-chevron-right fa-xs"></i></span>
             </div>
           </div>
         </div>
@@ -89,7 +145,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav_notification badge">1</span>
+            <span class="nav_notification badge">4</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
@@ -108,11 +164,11 @@
     </nav>
 
     <div id="splash-screen">
-      <i class="fas fa-comment"></i>
+      <i class="fas fa-dumbbell"></i>
     </div>
 
     <div id="no-mobile">
-      <span>Your screen is too big!! ㅠㅠ</span>
+      <span>화면을 줄여주세요!!</span>
     </div>
 
     <script
